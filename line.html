@@ -1,0 +1,18 @@
+<div id="application">
+    <h3>Moving Objects On Bezier Curve</h3>
+    <style>
+        canvas {
+            background-color: mintcream;
+        }
+    </style>
+    <canvas width="600" height="400" id="canvas"></canvas>
+    <button id="play-btn">Play Animation</button>
+    <p> - Drag the points to change the enclosed shape and resultant paths - </p>
+    <p>Two points on line are endpoints, other two are control points for bezier curve. These two segments have C0 continuity at these endpoints. This piecewise cubic consists of one segment that is defined by the adjustable bezier control points, and another segment that contorts these control points for a unique curve. Try putting the control points on opposite sides of the curve!</p>
+    <div id="speed-slider">
+      <p>Speed <span id="slider-text">2</span></p>
+      <input type="range" min="1" max="5" value="1" id="slider" />
+    </div>
+  </div>
+
+  <script src="bezier.js"></script>
