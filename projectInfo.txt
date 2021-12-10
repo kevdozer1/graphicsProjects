@@ -1,0 +1,1 @@
+line and bezier are projects made to implement curved lines. The P5 files is my elevation of that project into a 3D space, allowing for custom rotated Bezier curves through a 3D space
